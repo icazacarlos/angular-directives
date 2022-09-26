@@ -1,0 +1,11 @@
+app.directive("alert", function () {
+  return {
+    template: "<div class='container-md my-md-4 bd-layout'>" +
+    "<br>" +
+    "<div class='alert alert-success' role='alert'>" +
+      "<h4 class='alert-heading'>Title</h4>" +
+      "<p>Message</p>" +
+    "</div>" +
+  "</div>"
+  };
+});
